@@ -1,0 +1,80 @@
+objects:
+  tag378:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 0.697
+        - 0.692
+        theta_deg: -45
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.08
+        tag_id: 378
+  tag379:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 2.221
+        - 0.702
+        theta_deg: 45
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.08
+        tag_id: 379
+  tag380:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 2.217
+        - 2.207
+        theta_deg: 135
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.08
+        tag_id: 380
+  tag381:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 0.702
+        - 2.222
+        theta_deg: -135
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.08
+        tag_id: 381
+tile_size: 0.585
+tiles:
+- - floor
+  - floor
+  - floor
+  - floor
+  - floor
+- - floor
+  - curve_left/W
+  - straight/W
+  - curve_left/N
+  - floor
+- - floor
+  - straight/S
+  - floor
+  - straight/N
+  - floor
+- - floor
+  - curve_left/S
+  - straight/E
+  - curve_left/E
+  - floor
+- - floor
+  - floor
+  - floor
+  - floor
+  - floor
