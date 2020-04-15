@@ -17,6 +17,7 @@ oyaml
 plotly
 markdown
 PyContracts>=1.8.12
+jupyter_contrib_nbextensions
 
 # testing
 comptests==1.4.34
